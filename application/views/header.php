@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">途瑞[ToRun]-领先全球的物流管理系统</a>
+                <a class="navbar-brand" href="<?php site_url( '' ); ?>">途瑞[ToRun]-领先全球的物流管理系统</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -279,7 +279,7 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> 客户列表</a>
+                            <a href="<?php echo site_url( 'agent/index'); ?>"><i class="fa fa-dashboard fa-fw"></i> 客户列表</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> 运单列表<span class="fa arrow"></span></a>
