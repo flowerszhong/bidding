@@ -2,6 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Agent_model extends CI_Model {
+
+    protected $table = 'agent';
+    protected $primaryKey = 'id';
     public function __construct()
     {
         parent::__construct();
@@ -22,6 +25,11 @@ class Agent_model extends CI_Model {
     {
         $this->db->insert($this->table,$data);
         return $this->db->insert_id(); 
+    }
+
+    public function select_agent(){
+        $query = $this->db->query('select id,name from agent');
+        return $query->result();
     }
 
     

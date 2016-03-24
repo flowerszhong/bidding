@@ -297,7 +297,7 @@
                             <a href="tables.html"><i class="fa fa-table fa-fw"></i> 报价单</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                            <a href="area/index"><i class="fa fa-edit fa-fw"></i> 区域列表</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
